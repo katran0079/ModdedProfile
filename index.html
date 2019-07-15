@@ -11,84 +11,90 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="assets/java/java.js"></script>
   </head>
-  <body>
+  <body background="blue.png">
     <div class="header">
       <div class="row">
-        <div class="col-sm-6">
-          <h6>Kelvin Tran</h6>
+        <div class="col-sm-1 sideline"></div>
+        <div class="col-sm-8 headline">
+          <h1>Kelvin Tran</h1>
         </div>
-        <div class="col-sm-1">
-          <a href="#">Home</a>
+        <div class="col-sm-1 sideline">
+          <a href="#"><h4>Home</h4></a>
         </div>
-        <div class="col-sm-1">
-          <a href="#">Portfolio</a>
+        <div class="col-sm-1 sideline">
+          <a href="#"><h4>Portfolio</h4></a>
         </div>
-        <div class="col-sm-1">
-          <a href="#">Contacts</a>
+        <div class="col-sm-1 sideline">
+          <a href="#"><h4>Contacts</h4></a>
         </div>
       </div>
     </div>
+    <br />
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="portfolio col-sm-8">
+        <h1 id="container-head">Portfolio</h1>
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-4 top-half">
+            <a class="hyperlink" href="https://github.com/katran0079/Hangman">
+              <h3 id="Project1">Hang-Man</h3>
+            </a>
 
-    <div class="portfolio">
-      <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4"><h1>Portfolio</h1></div>
-      </div>
-      <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-4">
-          <a href="https://github.com/katran0079/Hangman">
-            <h2 id="Project1">Hang-Man Game</h2>
-          </a>
-          <a href="https://katran0079.github.io/Hangman/">
-            <img
-              id="picture1"
-              src="http://www.n8health.com.au/wp-content/uploads/2018/12/coming-soon-350x350.jpg"
-              alt="pic1"
-            />
-          </a>
+            <a href="https://katran0079.github.io/Hangman/">
+              <img
+                id="picture1"
+                src="http://www.n8health.com.au/wp-content/uploads/2018/12/coming-soon-350x350.jpg"
+                alt="pic1"
+              />
+            </a>
+          </div>
+          <div class="col-sm-4 top-half">
+            <a class="hyperlink" href="https://github.com/katran0079/Gem-Game">
+              <h3 id="Project2">Gem Game</h3>
+            </a>
+            <a href="https://katran0079.github.io/Gem-Game/">
+              <img
+                id="picture2"
+                src="http://www.n8health.com.au/wp-content/uploads/2018/12/coming-soon-350x350.jpg"
+                alt="pic2"
+              />
+            </a>
+          </div>
         </div>
-        <div class="col-sm-4">
-          <a href="https://github.com/katran0079/Gem-Game">
-            <h2 id="Project2">Gem Game</h2>
-          </a>
-          <a href="https://katran0079.github.io/Gem-Game/">
-            <img
-              id="picture2"
-              src="http://www.n8health.com.au/wp-content/uploads/2018/12/coming-soon-350x350.jpg"
-              alt="pic2"
-            />
-          </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-4">
-          <a href="https://github.com/giphy-homework">
-            <h2 id="Project3">GifQuest</h2>
-          </a>
-          <a href="https://katran0079.github.io/giphy-homework/">
-            <img
-              id="picture3"
-              src="http://www.n8health.com.au/wp-content/uploads/2018/12/coming-soon-350x350.jpg"
-              alt="pic3"
-            />
-          </a>
-        </div>
-        <div class="col-sm-4">
-          <a href="https://github.com/cafeamericano/UNC-Project01">
-            <h2 id="Project4">Dashboard.</h2>
-          </a>
-          <a href="https://cafeamericano.github.io/UNC-Project01/index.html">
-            <img
-              id="picture4"
-              src="http://www.n8health.com.au/wp-content/uploads/2018/12/coming-soon-350x350.jpg"
-              alt="pic4"
-            />
-          </a>
+
+        <div class="row last-half">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-4">
+            <a class="hyperlink" href="https://github.com/giphy-homework">
+              <h3 id="Project3">GifQuest</h3>
+            </a>
+            <a href="https://katran0079.github.io/giphy-homework/">
+              <img
+                id="picture3"
+                src="http://www.n8health.com.au/wp-content/uploads/2018/12/coming-soon-350x350.jpg"
+                alt="pic3"
+              />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a
+              class="hyperlink"
+              href="https://github.com/cafeamericano/UNC-Project01"
+            >
+              <h3 id="Project4">Dashboard.</h3>
+            </a>
+            <a href="https://cafeamericano.github.io/UNC-Project01/index.html">
+              <img
+                id="picture4"
+                src="http://www.n8health.com.au/wp-content/uploads/2018/12/coming-soon-350x350.jpg"
+                alt="pic4"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
